@@ -291,6 +291,15 @@ public class HotelDemoJunit extends BaseClass{
 	WebElement btnCancelled = findLocatorByXpath("//div//button[@class='cancle btn filter_btn mb-3']");
 	System.out.println(btnCancelled.getText());
 	
+	WebElement textHotelName5 = findLocatorByXpath("//a//h5[contains(text(),'Chennai')]");
+	System.out.println(textHotelName5.getText());
+	
+	WebElement textHotelPrice3 = findLocatorByXpath("//div//strong[@class='total-prize']");
+	System.out.println(textHotelPrice3.getText());
+	
+	WebElement btnCancell = findLocatorByXpath("//div//button[@class='cancle btn filter_btn mb-3']");
+	System.out.println(btnCancell.getText());
+	
 	
 	}
 	
