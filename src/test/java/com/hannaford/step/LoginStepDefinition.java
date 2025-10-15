@@ -13,7 +13,7 @@ public class LoginStepDefinition extends BaseClass{
 
 	@Given("User in on the HannaFord Page")
 	public void user_in_on_the_hanna_ford_page() {
-		edgeBrowserLaunch();
+		chromeBrowserLaunch();
 		enterApplUrl("https://www.hannaford.com/");
 		maximizeWindow();
 		implicitwait();

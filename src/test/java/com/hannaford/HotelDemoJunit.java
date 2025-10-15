@@ -244,16 +244,16 @@ public class HotelDemoJunit extends BaseClass{
 	WebElement txtUpdatedBooking = findLocatorByXpath("//ul//li[@class='alertMsg']");
 	System.out.println(txtUpdatedBooking.getText());
 	
-//	WebElement btnMyBooking2 = findLocatorById("step2");
-//	elementClick(btnMyBooking2);
+	WebElement btnMyBooking2 = findLocatorById("step2");
+	elementClick(btnMyBooking2);
 	
 	WebElement textBookingId3 = findLocatorByXpath("//a//span[contains(text(),'#')]");
 	String bookingId3 = elementGetText(textBookingId3);
 	String replaceBookingId3 = bookingId3.replace("#", "");
 	System.out.println(replaceBookingId3);
 	
-//	WebElement txtBookingNo2 = findLocatorByXpath("//input[@name='search']");
-//	elementSendKeysEnter(txtBookingNo2, replaceBookingId3);
+	WebElement txtBookingNo2 = findLocatorByXpath("//input[@name='search']");
+	elementSendKeysEnter(txtBookingNo2, replaceBookingId3);
 	
 	WebElement textHotelName3 = findLocatorByXpath("//a//h5[contains(text(),'Chennai')]");
 	System.out.println(textHotelName3.getText());
@@ -271,16 +271,16 @@ public class HotelDemoJunit extends BaseClass{
 	WebElement txtCancelBooking = findLocatorByXpath("//ul//li[@class='alertMsg']");
 	System.out.println(txtCancelBooking.getText());
 	
-//	WebElement btnMyBooking3 = findLocatorById("step2");
-//	elementClick(btnMyBooking3);
+	WebElement btnMyBooking3 = findLocatorById("step2");
+	elementClick(btnMyBooking3);
 	
 	WebElement textBookingId4 = findLocatorByXpath("//a//span[contains(text(),'#')]");
 	String bookingId4 = elementGetText(textBookingId4);
 	String replaceBookingId4 = bookingId4.replace("#", "");
 	System.out.println(replaceBookingId4);
 	
-//	WebElement txtBookingNo3 = findLocatorByXpath("//input[@name='search']");
-//	elementSendKeysEnter(txtBookingNo3, replaceBookingId4);
+	WebElement txtBookingNo3 = findLocatorByXpath("//input[@name='search']");
+	elementSendKeysEnter(txtBookingNo3, replaceBookingId4);
 	
 	WebElement textHotelName4 = findLocatorByXpath("//a//h5[contains(text(),'Chennai')]");
 	System.out.println(textHotelName4.getText());
